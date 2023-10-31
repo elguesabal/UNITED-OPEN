@@ -5,7 +5,7 @@ body, html {
 }
 
 #home {
-	background-image: url(../src/fundo.png);
+	background-image: url(../src/fundo.jpg);
 	background-size: auto 100vh;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
