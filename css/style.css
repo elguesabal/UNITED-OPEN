@@ -12,6 +12,11 @@ body, html {
 	background-position: center center;
 	background-color: black;
 }
+
+#anuncio {
+	z-index: 100;
+	top: 0;
+}
 /* INDEX */
 
 /* CONFIG GERAIS */
