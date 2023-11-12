@@ -2,7 +2,7 @@ export default function boutique() {
     return (
         `<div class="col">
             <div class="card h-100">
-                <img src="./src/boutique.jpg" class="card-img-top" alt="Imagem do patrocinador">
+                <img src="../src/boutique.jpg" class="card-img-top" alt="Imagem do patrocinador">
                 <div class="card-body">
                     <h5 class="card-title">Moda feminina casual</h5>
                     <p class="card-text">manequim do 34 ao 52.</p>

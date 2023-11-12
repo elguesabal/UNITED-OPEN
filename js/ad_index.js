@@ -4,14 +4,14 @@ import new_ad from "./new_ad.js";
 
 const space_ad = document.getElementById("ad");
 const ad = [boutique(), badbons(), new_ad()];
+const n = [0, 1, 2];
 
-for (let i = ad.length - 1; i > 0; i--) {
+for (let i = n.length - 1; i > 0; i--) {
     let j = Math.floor(Math.random() * (i + 1));
-    let temp = ad[i];
-    ad[i] = ad[j];
-    ad[j] = temp;
+    let temp = n[i];
+    n[i] = n[j];
+    n[j] = temp;
 }
 for (let i = 0; i < ad.length; i++) {
-    space_ad.innerHTML += ad[i];
+    space_ad.innerHTML += ad[n[i]];
 }
-  
