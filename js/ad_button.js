@@ -1,4 +1,1 @@
-setTimeout(() => {
-    const bsCollapse = new bootstrap.Collapse(document.getElementById('collapseWidthExample'));
-    bsCollapse.toggle();
-}, 300);
+setTimeout(() => new bootstrap.Collapse(document.getElementById('collapseWidthExample')).toggle(), 300);
